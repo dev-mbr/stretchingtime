@@ -1,12 +1,14 @@
-import Button from './components/Button';
+//Styles
+import './styles/global.scss';
+import {ExperienceBar} from "./components/ExperienceBar";
+
+//Components
 
 function App() {
   return (
-    <>
-      <h1>Hello, Lucas</h1>
-      <Button color="red" />
-      <Button color="blue" />
-    </>
+    <div className='container'>
+        <ExperienceBar/>
+    </div>
   );
 }
 
